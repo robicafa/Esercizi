@@ -1,0 +1,12 @@
+try:
+  print("Benvenuti al programma \'Moltiplicatore\'\n")
+  print("Restituisce in output il risultato di una moltiplicazione tra due numeri!\n")
+
+  a = float(input("Inserisci il primo valore => "))
+  b = float(input("Inserisci il secondo valore => "))
+
+except ValueError:
+  print("Errore: devi inserire solo numeri!\n")
+
+else:
+  print(f"Il risultato è {a * b}")
